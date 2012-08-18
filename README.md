@@ -13,11 +13,11 @@ Examples
 <script src="mo.js"></script>
 ```
 
-middle school - loads as non-blocking, but has multiple dependents
+then you could write code like this:
 
 ``` js
 mo('boot.js', function () {
-	//TODO
+	//boot.js is ready
 });
 ```
 or
@@ -26,7 +26,7 @@ or
 <script>
 ;(function(l,o,a,d,i,n,g){if(l[a])return;g=function(){l[a][a].push(arguments);return l[a]};g[a]=[];l[a]=g;g=o.createElement('script');g.src=n;n=o[i]||o[d](i)[0];i=o[d]('base')[0];i?n.insertBefore(g,i):n.appendChild(g);})(this,document,'mo','getElementsByTagName','head','mo.js');
 mo('boot.js', function () {
-	//TODO
+	//boot.js is ready
 });
 ```
 
