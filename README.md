@@ -1,6 +1,6 @@
-mo 
+![Alt text](https://raw.github.com/chriswong/mo/master/logo.jpg) 
 =====
-Yet another mini JavaScript loader and dependency manager, **mo***re* but no-*re*peat.
+Yet another mini JavaScript loader and dependency manager.
 Browser Support
 ---------------
 not test yet.
