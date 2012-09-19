@@ -74,7 +74,7 @@
 		},
 
 
-        //http://dustindiaz.com/smallest-domready-ever
+        //dustindiaz.com/smallest-domready-ever
 		domready = (function(){
 			var queue = [],
 				loaded,
