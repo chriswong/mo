@@ -1,6 +1,6 @@
 ![Alt text](https://raw.github.com/chriswong/mo/master/logo.jpg) 
 =====
-Yet another mini JavaScript loader and dependency manager.
+Yet another micro JavaScript loader and dependency manager.
 Browser Support
 ---------------
 not test yet.
