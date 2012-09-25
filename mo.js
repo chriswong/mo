@@ -149,7 +149,7 @@
                         if (stateReg.test(node.readyState)){
                             done(url);
                             node[onload] = node[onerror] = node[onreadystatechange] = null;
-                            js && head.removeChild(node);
+                            js && node.parentNode.removeChild(node);
                         }
                     }
 				} else {
